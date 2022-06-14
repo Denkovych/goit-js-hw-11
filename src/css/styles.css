@@ -24,14 +24,15 @@ form{
   );
 }
 .container{
-  width: 600px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   
 }
 .gallery{
   display: flex;
-  width: 600px;
+ 
+  flex-wrap: wrap;
 }
 .animal-photo{
   width: 250px;
