@@ -12,31 +12,3 @@ body {
   line-height: 1.5;
 }
 
-#search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
-}
-li{
-  list-style-type: none;
-  font-size: xx-large;
-}
-.country-list {
-  position: relative;
-  padding: 0;
-}
-.country-info{
-  padding: 10px;
-  position: absolute;
-  top: 70px;
-  width: 200px;
-  border-radius: 10px;
-  background-color: aqua;
-}
-.is-hidden{
-  opacity: 0;
-}
-.img-flag{
-  margin-right: 10px;
-}
