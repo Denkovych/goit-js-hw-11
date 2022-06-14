@@ -12,3 +12,35 @@ body {
   line-height: 1.5;
 }
 
+form{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    to bottom,
+    #0000FF 50%,
+    #0000FF 50%,
+    #FFFF00 50%,
+    #FFFF00 50%
+  );
+}
+.container{
+  width: 600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+.gallery{
+  display: flex;
+  width: 600px;
+}
+.animal-photo{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.photo-card{
+  border: 10px;
+}
+img{
+  display: block;
+}
