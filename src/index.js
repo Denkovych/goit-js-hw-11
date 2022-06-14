@@ -16,6 +16,7 @@ function onSearch(e){
     if(refs.inputSearch.value ===''){
         return console.log('error')
        }
+     
     newsLoadApi.animals = refs.inputSearch.value;
     newsLoadApi.resetPage();
     newsLoadApi.getFetch().then(response => markupFetch (response));
