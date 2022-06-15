@@ -1,4 +1,5 @@
 const axios = require('axios');
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 export default class NewLoadApi{
     
     constructor(){
@@ -13,7 +14,7 @@ export default class NewLoadApi{
      
     return response;
     } catch (error) {
-      console.log(error);
+      Notify.failure("We're sorry, but you've reached the end of search results.");
     }
   }
 
