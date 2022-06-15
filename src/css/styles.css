@@ -35,13 +35,35 @@ form{
   flex-wrap: wrap;
 }
 .animal-photo{
-  width: 250px;
+  width: 270px;
   height: 250px;
   object-fit: cover;
 }
 .photo-card{
   border: 10px;
+  margin-right: 20px;
 }
 img{
   display: block;
+}
+.load-more{
+  background-color: blue;
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+.div_load{
+  display: flex;
+  justify-content: center;
+}
+.info{
+  display: flex;
+  justify-content: space-around;
+  font-size: x-small;
+}
+.gallery-section{
+  margin-top: 10px;
+}
+.is-hidden{
+  opacity: 0;
 }
